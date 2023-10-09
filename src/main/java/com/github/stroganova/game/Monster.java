@@ -1,5 +1,11 @@
 package com.github.stroganova.game;
 
+/*
+* Класс Monster является насладеником абстрактного класса Creature.
+* Методы attack и takeDamage переопределены у классов Player и Monster для демонстрации процесса игры.
+*/
+
+
 public class Monster extends Creature {
     public Monster(int health, int attack, int defense, int minDamage, int maxDamage) {
         super(health, attack, defense, minDamage, maxDamage);
