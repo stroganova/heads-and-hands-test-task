@@ -1,5 +1,9 @@
 package com.github.stroganova.game;
 
+/*
+* Небольшой пример использования классов
+*/    
+
 public class GameRunner {
 public static void main (String[] args) {
     Player player = new Player("Arthur", 100, 10, 15, 1, 6);
