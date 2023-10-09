@@ -1,5 +1,8 @@
 package com.github.stroganova.game;
 import java.util.Random;
+/*
+* Утилитарный класс со статическим методом для бросания кубика. 
+*/
 
 public class Dice {
     private Dice()   {
